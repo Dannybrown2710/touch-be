@@ -74,7 +74,7 @@ exports.signin = async(req, res) => {
         message: "Invalid Password!",
       });
     }
-    const resp = {student: {
+    const resp = {user: {
       id: student.id,
       email: student.email,
       fullName: student.fullName,
